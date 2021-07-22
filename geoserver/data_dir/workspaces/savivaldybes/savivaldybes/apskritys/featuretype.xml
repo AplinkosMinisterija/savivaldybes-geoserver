@@ -1,0 +1,66 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--1f9801dc:17ace678105:-7ffb</id>
+  <name>apskritys</name>
+  <nativeName>apskritys</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--1f9801dc:17ace678105:-7ffe</id>
+  </namespace>
+  <title>apskritys</title>
+  <keywords>
+    <string>features</string>
+    <string>apskritys</string>
+  </keywords>
+  <nativeCRS class="projected">PROJCS[&quot;LKS94 / Lithuania TM&quot;, 
+  GEOGCS[&quot;LKS94&quot;, 
+    DATUM[&quot;Lithuania 1994 (ETRS89)&quot;, 
+      SPHEROID[&quot;GRS 1980&quot;, 6378137.0, 298.257222101, AUTHORITY[&quot;EPSG&quot;,&quot;7019&quot;]], 
+      TOWGS84[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 
+      AUTHORITY[&quot;EPSG&quot;,&quot;6126&quot;]], 
+    PRIMEM[&quot;Greenwich&quot;, 0.0, AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]], 
+    UNIT[&quot;degree&quot;, 0.017453292519943295], 
+    AXIS[&quot;Geodetic longitude&quot;, EAST], 
+    AXIS[&quot;Geodetic latitude&quot;, NORTH], 
+    AUTHORITY[&quot;EPSG&quot;,&quot;4669&quot;]], 
+  PROJECTION[&quot;Transverse_Mercator&quot;, AUTHORITY[&quot;EPSG&quot;,&quot;9807&quot;]], 
+  PARAMETER[&quot;central_meridian&quot;, 24.0], 
+  PARAMETER[&quot;latitude_of_origin&quot;, 0.0], 
+  PARAMETER[&quot;scale_factor&quot;, 0.9998], 
+  PARAMETER[&quot;false_easting&quot;, 500000.0], 
+  PARAMETER[&quot;false_northing&quot;, 0.0], 
+  UNIT[&quot;m&quot;, 1.0], 
+  AXIS[&quot;Easting&quot;, EAST], 
+  AXIS[&quot;Northing&quot;, NORTH], 
+  AUTHORITY[&quot;EPSG&quot;,&quot;3346&quot;]]</nativeCRS>
+  <srs>EPSG:3346</srs>
+  <nativeBoundingBox>
+    <minx>172763.81341263192</minx>
+    <maxx>685350.9526828087</maxx>
+    <miny>5972828.644274589</miny>
+    <maxy>6268543.17163343</maxy>
+    <crs class="projected">EPSG:3346</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>18.69128258972609</minx>
+    <maxx>27.011892910163574</maxx>
+    <miny>53.790173564927855</miny>
+    <maxy>56.549717230972995</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--1f9801dc:17ace678105:-7ffd</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <simpleConversionEnabled>false</simpleConversionEnabled>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

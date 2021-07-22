@@ -1,0 +1,20 @@
+<dataStore>
+  <id>DataStoreInfoImpl--1f9801dc:17ace678105:-7ffd</id>
+  <name>savivaldybes</name>
+  <type>GeoPackage</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl--1f9801dc:17ace678105:-7fff</id>
+  </workspace>
+  <connectionParameters>
+    <entry key="fetch size">1000</entry>
+    <entry key="Expose primary keys">false</entry>
+    <entry key="Batch insert size">1</entry>
+    <entry key="database">file:savivaldybes.gpkg</entry>
+    <entry key="read_only">false</entry>
+    <entry key="dbtype">geopkg</entry>
+    <entry key="namespace">savivaldybes</entry>
+  </connectionParameters>
+  <__default>false</__default>
+  <dateCreated>2021-07-22 13:50:28.164 UTC</dateCreated>
+</dataStore>

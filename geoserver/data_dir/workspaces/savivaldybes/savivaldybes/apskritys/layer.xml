@@ -1,0 +1,17 @@
+<layer>
+  <name>apskritys</name>
+  <id>LayerInfoImpl--1f9801dc:17ace678105:-7ffa</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--570ae188:124761b8d78:-7fe0</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--1f9801dc:17ace678105:-7ffb</id>
+  </resource>
+  <opaque>true</opaque>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2021-07-22 13:51:13.976 UTC</dateCreated>
+</layer>

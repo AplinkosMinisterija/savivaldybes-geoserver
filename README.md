@@ -1,1 +1,3 @@
-# rajanai-reverse-geocoder
+query example:
+
+http://localhost:8080/geoserver/savivaldybes/wms?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetFeatureInfo&FORMAT=image%2Fpng&TRANSPARENT=true&QUERY_LAYERS=savivaldybes%3Aapskritys&STYLES&LAYERS=savivaldybes%3Aapskritys&exceptions=application%2Fvnd.ogc.se_inimage&INFO_FORMAT=text%2Fhtml&FEATURE_COUNT=50&X=50&Y=50&SRS=EPSG%3A3346&WIDTH=101&HEIGHT=101&BBOX=454596.5997653943%2C6084295.216289748%2C485442.58997681254%2C6115141.206501166
