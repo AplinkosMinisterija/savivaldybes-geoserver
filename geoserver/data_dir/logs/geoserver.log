@@ -1546,3 +1546,495 @@ GetMap Request
 2021-07-22 17:54:37,028 INFO [storage.DefaultStorageBroker] - Destroying StorageBroker
 2021-07-22 17:54:37,033 WARN [support.DisposableBeanAdapter] - Destroy method 'destroy' on bean with name 'gwcMemoryBlobStore' threw an exception: java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.FutureTask@30e023b9[Not completed, task = org.geowebcache.storage.blobstore.memory.MemoryBlobStore$BlobStoreTask@7926630c] rejected from java.util.concurrent.ThreadPoolExecutor@3caa4af9[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 1]
 2021-07-22 17:54:37,036 WARN [support.DisposableBeanAdapter] - Invocation of destroy method failed on bean with name 'geoServerLoader': org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'geoWebCacheExtensions': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
+2021-10-29 08:39:38,006 INFO [org.geoserver] - GeoServer configuration lock is enabled
+2021-10-29 08:39:38,061 INFO [org.geoserver] - Loading catalog...
+2021-10-29 08:39:38,123 INFO [org.geoserver] - Loaded style 'point'
+2021-10-29 08:39:38,124 INFO [org.geoserver] - Loaded style 'rain'
+2021-10-29 08:39:38,125 INFO [org.geoserver] - Loaded style 'raster'
+2021-10-29 08:39:38,126 INFO [org.geoserver] - Loaded style 'poi'
+2021-10-29 08:39:38,126 INFO [org.geoserver] - Loaded style 'poly_landmarks'
+2021-10-29 08:39:38,127 INFO [org.geoserver] - Loaded style 'dem'
+2021-10-29 08:39:38,127 INFO [org.geoserver] - Loaded style 'simple_roads'
+2021-10-29 08:39:38,128 INFO [org.geoserver] - Loaded style 'burg'
+2021-10-29 08:39:38,128 INFO [org.geoserver] - Loaded style 'simple_streams'
+2021-10-29 08:39:38,129 INFO [org.geoserver] - Loaded style 'capitals'
+2021-10-29 08:39:38,130 INFO [org.geoserver] - Loaded style 'line'
+2021-10-29 08:39:38,130 INFO [org.geoserver] - Loaded style 'grass'
+2021-10-29 08:39:38,131 INFO [org.geoserver] - Loaded style 'restricted'
+2021-10-29 08:39:38,132 INFO [org.geoserver] - Loaded style 'tiger_roads'
+2021-10-29 08:39:38,132 INFO [org.geoserver] - Loaded style 'green'
+2021-10-29 08:39:38,134 INFO [org.geoserver] - Loaded style 'population'
+2021-10-29 08:39:38,135 INFO [org.geoserver] - Loaded style 'generic'
+2021-10-29 08:39:38,136 INFO [org.geoserver] - Loaded style 'polygon'
+2021-10-29 08:39:38,136 INFO [org.geoserver] - Loaded style 'pophatch'
+2021-10-29 08:39:38,137 INFO [org.geoserver] - Loaded style 'giant_polygon'
+2021-10-29 08:39:38,137 INFO [org.geoserver] - Loaded style 'cite_lakes'
+2021-10-29 08:39:38,155 INFO [org.geoserver] - Loaded default workspace savivaldybes
+2021-10-29 08:39:38,165 INFO [org.geoserver] - Loaded workspace 'savivaldybes'
+2021-10-29 08:39:38,515 INFO [org.geoserver] - Loaded data store 'savivaldybes', enabled
+2021-10-29 08:39:39,560 INFO [org.geoserver] - Loaded feature type 'apskritys', enabled
+2021-10-29 08:39:39,575 INFO [org.geoserver] - Loaded layer 'apskritys'
+2021-10-29 08:39:39,578 INFO [org.geoserver] - Read catalog in 1.516 s
+2021-10-29 08:39:39,676 INFO [org.geoserver] - Loaded service 'WMTSInfoImpl-3c4b0364:17ccb345f9b:-8000', enabled
+2021-10-29 08:39:39,685 INFO [org.geoserver] - Loaded service 'wcs', enabled
+2021-10-29 08:39:39,706 INFO [org.geoserver] - Loaded service 'wfs', enabled
+2021-10-29 08:39:39,721 INFO [org.geoserver] - Loaded service 'wms', enabled
+2021-10-29 08:39:39,744 INFO [config.GeoserverXMLResourceProvider] - Will look for 'geowebcache.xml' in directory '/usr/app/bin/../data_dir/gwc'.
+2021-10-29 08:39:39,811 INFO [config.GeoserverXMLResourceProvider] - Found configuration file in gwc
+2021-10-29 08:39:39,811 INFO [config.GeoserverXMLResourceProvider] - Found configuration file in gwc
+2021-10-29 08:39:39,811 INFO [config.GeoserverXMLResourceProvider] - Found configuration file in gwc
+2021-10-29 08:39:39,855 WARN [config.XMLConfiguration] - ********************************************************************************
+2021-10-29 08:39:39,856 WARN [config.XMLConfiguration] - *** GWC configuration validation error: cvc-elt.1.a: Cannot find the declaration of element 'gwcConfiguration'.
+2021-10-29 08:39:39,856 WARN [config.XMLConfiguration] - *** Will try to use configuration anyway. Please check the order of declared elements against the schema.
+2021-10-29 08:39:39,856 WARN [config.XMLConfiguration] - ********************************************************************************
+2021-10-29 08:39:39,901 INFO [config.XMLConfiguration] - Initializing GridSets from gwc
+2021-10-29 08:39:39,902 INFO [config.XMLConfiguration] - Initializing layers from gwc
+2021-10-29 08:39:39,943 INFO [gwc.layer] - Initializing GWC configuration based on GeoServer's Catalog
+2021-10-29 08:39:39,943 INFO [gwc.layer] - GeoServer TileLayer store base directory is: gwc-layers
+2021-10-29 08:39:39,943 INFO [gwc.layer] - Loading tile layers from gwc-layers
+2021-10-29 08:39:39,964 INFO [gwc.layer] - Loaded 1 tile layers in 19.85 ms
+2021-10-29 08:39:39,974 INFO [storage.BlobStoreAggregator] - BlobStoreConfiguration gwc contained no blob store infos.
+2021-10-29 08:39:39,981 INFO [storage.DefaultStorageFinder] - ***************************************************************************************************************************
+2021-10-29 08:39:39,982 INFO [storage.DefaultStorageFinder] - *** Found Java environment variable GEOSERVER_DATA_DIR set to /usr/app/bin/../data_dir, using it as the default prefix. ***
+2021-10-29 08:39:39,982 INFO [storage.DefaultStorageFinder] - ***************************************************************************************************************************
+2021-10-29 08:39:40,036 INFO [gwc.config] - Initializing GeoServer specific GWC configuration from gwc-gs.xml
+2021-10-29 08:39:40,097 INFO [config.GeoserverXMLResourceProvider] - Will look for 'geowebcache-diskquota.xml' in directory '/usr/app/bin/../data_dir/gwc'.
+2021-10-29 08:39:40,105 INFO [config.GeoserverXMLResourceProvider] - Will look for 'geowebcache-diskquota-jdbc.xml' in directory '/usr/app/bin/../data_dir/gwc'.
+2021-10-29 08:39:40,107 INFO [diskquota.ConfigLoader] - DiskQuota configuration is not readable: gwc/geowebcache-diskquota.xml
+2021-10-29 08:39:40,114 INFO [diskquota.ConfigLoader] - DiskQuota configuration is not readable: gwc/geowebcache-diskquota.xml
+2021-10-29 08:39:40,115 INFO [diskquota.DiskQuotaMonitor] - Setting up disk quota periodic enforcement task
+2021-10-29 08:39:40,115 INFO [diskquota.DiskQuotaMonitor] - 0 layers configured with their own quotas. 
+2021-10-29 08:39:40,116 INFO [diskquota.DiskQuotaMonitor] - 1 layers attached to global quota 500.0 MB
+2021-10-29 08:39:40,139 INFO [diskquota.DiskQuotaMonitor] - Disk quota periodic enforcement task set up every 10 SECONDS
+2021-10-29 08:39:40,270 INFO [geowebcache.GeoWebCacheDispatcher] - Invoked setServletPrefix(gwc)
+2021-10-29 08:39:40,283 INFO [georss.GeoRSSPoller] - Initializing GeoRSS poller in a background job...
+2021-10-29 08:39:40,285 INFO [georss.GeoRSSPoller] - No enabled GeoRSS feeds found, poller will not run.
+2021-10-29 08:39:40,380 INFO [wms.WMSService] - Will NOT recombine tiles for non-tiling clients.
+2021-10-29 08:39:40,380 INFO [wms.WMSService] - Will proxy requests to backend that are not getmap or getcapabilities.
+2021-10-29 08:39:41,576 INFO [geoserver.config] - Initiated CatalogTimeStampUpdater
+2021-10-29 08:39:41,875 WARN [gce.imagemosaic] - Unable to set ordering between tiff readers spi
+2021-10-29 08:39:43,588 INFO [geoserver.security] - Start reloading user/groups for service named default
+2021-10-29 08:39:43,594 INFO [geoserver.security] - Reloading user/groups successful for service named default
+2021-10-29 08:39:43,699 INFO [geoserver.security] - AuthenticationCache Initialized with 1000 Max Entries, 300 seconds idle time, 600 seconds time to live and 3 concurrency level
+2021-10-29 08:39:43,699 INFO [geoserver.security] - AuthenticationCache Eviction Task created to run every 600 seconds
+2021-10-29 08:40:03,434 INFO [geoserver.security] - Strong cryptography is available
+2021-10-29 08:40:39,479 WARN [wicket.Localizer] - Tried to retrieve a localized string for a component that has not yet been added to the page. This can sometimes lead to an invalid or no localized resource returned. Make sure you are not calling Component#getString() inside your Component's constructor. Offending component: [ShapefileStoreEditPanel [Component id = parametersPanel]]
+2021-10-29 08:40:39,492 WARN [wicket.Localizer] - Tried to retrieve a localized string for a component that has not yet been added to the page. This can sometimes lead to an invalid or no localized resource returned. Make sure you are not calling Component#getString() inside your Component's constructor. Offending component: [ShapefileStoreEditPanel [Component id = parametersPanel]]
+2021-10-29 08:41:42,013 INFO [geoserver.gwc] - Saving GeoSeverTileLayer uetk:Ezerai_tvenkiniai_dirbiniai
+2021-10-29 08:41:44,929 INFO [platform.resource] - Notifying ENTRY_MODIFY change on /usr/app/bin/../data_dir/gwc-layers. Created: 1, removed: 0, modified: 0
+2021-10-29 08:41:56,290 WARN [wicket.Localizer] - Tried to retrieve a localized string for a component that has not yet been added to the page. This can sometimes lead to an invalid or no localized resource returned. Make sure you are not calling Component#getString() inside your Component's constructor. Offending component: [ShapefileStoreEditPanel [Component id = parametersPanel]]
+2021-10-29 08:41:56,291 WARN [wicket.Localizer] - Tried to retrieve a localized string for a component that has not yet been added to the page. This can sometimes lead to an invalid or no localized resource returned. Make sure you are not calling Component#getString() inside your Component's constructor. Offending component: [ShapefileStoreEditPanel [Component id = parametersPanel]]
+2021-10-29 08:42:42,658 INFO [geoserver.gwc] - Saving GeoSeverTileLayer uetk:Upes_kanalai
+2021-10-29 08:42:44,935 INFO [platform.resource] - Notifying ENTRY_MODIFY change on /usr/app/bin/../data_dir/gwc-layers. Created: 1, removed: 0, modified: 0
+2021-10-29 08:42:46,657 WARN [geoserver.web] - Unable to find property: 'format.wfs.text/csv' for component:  [class=org.geoserver.web.demo.MapPreviewPage]. Locale: null, style: null
+2021-10-29 08:42:46,658 WARN [geoserver.web] - Unable to find property: 'format.wfs.text/csv' for component:  [class=org.geoserver.web.demo.MapPreviewPage]. Locale: null, style: null
+2021-10-29 08:42:46,658 WARN [geoserver.web] - Unable to find property: 'format.wfs.text/csv' for component:  [class=org.geoserver.web.demo.MapPreviewPage]. Locale: null, style: null
+2021-10-29 08:42:46,658 WARN [geoserver.web] - Unable to find property: 'format.wfs.text/csv' for component:  [class=org.geoserver.web.demo.MapPreviewPage]. Locale: null, style: null
+2021-10-29 08:42:46,687 WARN [geoserver.web] - Unable to find property: 'format.wfs.text/csv' for component:  [class=org.geoserver.web.demo.MapPreviewPage]. Locale: null, style: null
+2021-10-29 08:42:46,692 WARN [geoserver.web] - Unable to find property: 'format.wfs.text/csv' for component:  [class=org.geoserver.web.demo.MapPreviewPage]. Locale: null, style: null
+2021-10-29 08:42:46,695 WARN [geoserver.web] - Unable to find property: 'format.wfs.text/csv' for component:  [class=org.geoserver.web.demo.MapPreviewPage]. Locale: null, style: null
+2021-10-29 08:42:49,185 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2021-10-29 08:42:49,411 INFO [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://localhost:8789/geoserver/
+	Bbox = SRSEnvelope[315892.18759999983 : 680010.1311, 5973492.9561 : 6257813.4520000005]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = PROJCS["LKS94 / Lithuania TM", 
+  GEOGCS["LKS94", 
+    DATUM["Lithuania 1994 (ETRS89)", 
+      SPHEROID["GRS 1980", 6378137.0, 298.257222101, AUTHORITY["EPSG","7019"]], 
+      TOWGS84[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 
+      AUTHORITY["EPSG","6126"]], 
+    PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+    UNIT["degree", 0.017453292519943295], 
+    AXIS["Geodetic longitude", EAST], 
+    AXIS["Geodetic latitude", NORTH], 
+    AUTHORITY["EPSG","4669"]], 
+  PROJECTION["Transverse_Mercator", AUTHORITY["EPSG","9807"]], 
+  PARAMETER["central_meridian", 24.0], 
+  PARAMETER["latitude_of_origin", 0.0], 
+  PARAMETER["scale_factor", 0.9998], 
+  PARAMETER["false_easting", 500000.0], 
+  PARAMETER["false_northing", 0.0], 
+  UNIT["m", 1.0], 
+  AXIS["Easting", EAST], 
+  AXIS["Northing", NORTH], 
+  AUTHORITY["EPSG","3346"]]
+	Elevation = []
+	Env = {}
+	Exceptions = SE_XML
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = application/openlayers
+	FormatOptions = {}
+	Get = true
+	Height = 599
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@e22e5f59]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {REQUEST=GetMap, SRS=EPSG:3346, FORMAT=application/openlayers, BBOX=315892.18759999983,5973492.9561,680010.1311,6257813.4520000005, VERSION=1.1.0, STYLES=, SERVICE=WMS, WIDTH=768, HEIGHT=599, LAYERS=uetk:Upes_kanalai}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:3346
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=line]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = false
+	ValidateSchema = false
+	Version = 1.1.0
+	ViewParams = null
+	Width = 768
+2021-10-29 08:42:50,017 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2021-10-29 08:42:50,586 INFO [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://localhost:8789/geoserver/
+	Bbox = SRSEnvelope[263259.8372499257 : 732363.2131384244, 5932508.513433651 : 6298384.714159186]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = PROJCS["LKS94 / Lithuania TM", 
+  GEOGCS["LKS94", 
+    DATUM["Lithuania 1994 (ETRS89)", 
+      SPHEROID["GRS 1980", 6378137.0, 298.257222101, AUTHORITY["EPSG","7019"]], 
+      TOWGS84[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 
+      AUTHORITY["EPSG","6126"]], 
+    PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+    UNIT["degree", 0.017453292519943295], 
+    AXIS["Geodetic longitude", EAST], 
+    AXIS["Geodetic latitude", NORTH], 
+    AUTHORITY["EPSG","4669"]], 
+  PROJECTION["Transverse_Mercator", AUTHORITY["EPSG","9807"]], 
+  PARAMETER["central_meridian", 24.0], 
+  PARAMETER["latitude_of_origin", 0.0], 
+  PARAMETER["scale_factor", 0.9998], 
+  PARAMETER["false_easting", 500000.0], 
+  PARAMETER["false_northing", 0.0], 
+  UNIT["m", 1.0], 
+  AXIS["Easting", EAST], 
+  AXIS["Northing", NORTH], 
+  AUTHORITY["EPSG","3346"]]
+	Elevation = []
+	Env = {}
+	Exceptions = application/vnd.ogc.se_inimage
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 600
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@e22e5f59]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {EXCEPTIONS=application/vnd.ogc.se_inimage, FORMAT=image/png, REQUEST=GetMap, SRS=EPSG:3346, BBOX=263259.8372499257,5932508.513433651,732363.2131384244,6298384.714159186, VERSION=1.1.1, STYLES=, WIDTH=768, SERVICE=WMS, HEIGHT=600, TRANSPARENT=true, LAYERS=uetk:Upes_kanalai}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:3346
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=line]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 768
+2021-10-29 08:42:52,604 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2021-10-29 08:42:52,676 INFO [geoserver.wms] - 
+Request: getFeatureInfo
+	BaseUrl = http://localhost:8789/geoserver/
+	Exceptions = application/vnd.ogc.se_inimage
+	ExcludeNodataResults = false
+	FeatureCount = 50
+	Get = false
+	GetMapRequest = 
+GetMap Request
+ version: 1.1.1
+ output format: image/png
+ width height: 101,101
+ bbox: SRSEnvelope[556754.8530239147 : 618446.8334467512, 6131327.717667643 : 6193019.698090479]
+ layers: uetk:Upes_kanalai
+ styles: line
+	InfoFormat = text/html
+	PropertyNames = null
+	QueryLayers = [org.geoserver.wms.MapLayerInfo@e22e5f59]
+	RawKvp = {FORMAT=image/png, INFO_FORMAT=text/html, STYLES=, WIDTH=101, HEIGHT=101, LAYERS=uetk:Upes_kanalai, EXCEPTIONS=application/vnd.ogc.se_inimage, REQUEST=GetFeatureInfo, SRS=EPSG:3346, BBOX=556754.8530239147,6131327.717667643,618446.8334467512,6193019.698090479, VERSION=1.1.1, X=50, Y=50, SERVICE=WMS, QUERY_LAYERS=uetk:Upes_kanalai, TRANSPARENT=true, FEATURE_COUNT=50}
+	Request = GetFeatureInfo
+	RequestCharset = null
+	Version = 1.1.1
+	XPixel = 50
+	YPixel = 50
+2021-10-29 08:43:16,772 WARN [wicket.Localizer] - Tried to retrieve a localized string for a component that has not yet been added to the page. This can sometimes lead to an invalid or no localized resource returned. Make sure you are not calling Component#getString() inside your Component's constructor. Offending component: [ShapefileStoreEditPanel [Component id = parametersPanel]]
+2021-10-29 08:43:16,773 WARN [wicket.Localizer] - Tried to retrieve a localized string for a component that has not yet been added to the page. This can sometimes lead to an invalid or no localized resource returned. Make sure you are not calling Component#getString() inside your Component's constructor. Offending component: [ShapefileStoreEditPanel [Component id = parametersPanel]]
+2021-10-29 08:43:28,588 WARN [geoserver.web] - Unable to find property: 'format.wfs.text/csv' for component:  [class=org.geoserver.web.demo.MapPreviewPage]. Locale: null, style: null
+2021-10-29 08:43:28,588 WARN [geoserver.web] - Unable to find property: 'format.wfs.text/csv' for component:  [class=org.geoserver.web.demo.MapPreviewPage]. Locale: null, style: null
+2021-10-29 08:43:28,588 WARN [geoserver.web] - Unable to find property: 'format.wfs.text/csv' for component:  [class=org.geoserver.web.demo.MapPreviewPage]. Locale: null, style: null
+2021-10-29 08:43:28,589 WARN [geoserver.web] - Unable to find property: 'format.wfs.text/csv' for component:  [class=org.geoserver.web.demo.MapPreviewPage]. Locale: null, style: null
+2021-10-29 08:43:28,592 WARN [geoserver.web] - Unable to find property: 'format.wfs.text/csv' for component:  [class=org.geoserver.web.demo.MapPreviewPage]. Locale: null, style: null
+2021-10-29 08:43:28,595 WARN [geoserver.web] - Unable to find property: 'format.wfs.text/csv' for component:  [class=org.geoserver.web.demo.MapPreviewPage]. Locale: null, style: null
+2021-10-29 08:43:28,602 WARN [geoserver.web] - Unable to find property: 'format.wfs.text/csv' for component:  [class=org.geoserver.web.demo.MapPreviewPage]. Locale: null, style: null
+2021-10-29 08:43:31,039 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2021-10-29 08:43:31,052 INFO [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://localhost:8789/geoserver/
+	Bbox = SRSEnvelope[315892.18759999983 : 680010.1311, 5973492.9561 : 6257813.4520000005]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = PROJCS["LKS94 / Lithuania TM", 
+  GEOGCS["LKS94", 
+    DATUM["Lithuania 1994 (ETRS89)", 
+      SPHEROID["GRS 1980", 6378137.0, 298.257222101, AUTHORITY["EPSG","7019"]], 
+      TOWGS84[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 
+      AUTHORITY["EPSG","6126"]], 
+    PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+    UNIT["degree", 0.017453292519943295], 
+    AXIS["Geodetic longitude", EAST], 
+    AXIS["Geodetic latitude", NORTH], 
+    AUTHORITY["EPSG","4669"]], 
+  PROJECTION["Transverse_Mercator", AUTHORITY["EPSG","9807"]], 
+  PARAMETER["central_meridian", 24.0], 
+  PARAMETER["latitude_of_origin", 0.0], 
+  PARAMETER["scale_factor", 0.9998], 
+  PARAMETER["false_easting", 500000.0], 
+  PARAMETER["false_northing", 0.0], 
+  UNIT["m", 1.0], 
+  AXIS["Easting", EAST], 
+  AXIS["Northing", NORTH], 
+  AUTHORITY["EPSG","3346"]]
+	Elevation = []
+	Env = {}
+	Exceptions = SE_XML
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = application/openlayers
+	FormatOptions = {}
+	Get = true
+	Height = 599
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@e22e5f59]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {REQUEST=GetMap, SRS=EPSG:3346, FORMAT=application/openlayers, BBOX=315892.18759999983,5973492.9561,680010.1311,6257813.4520000005, VERSION=1.1.0, STYLES=, SERVICE=WMS, WIDTH=768, HEIGHT=599, LAYERS=uetk:Upes_kanalai}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:3346
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=line]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = false
+	ValidateSchema = false
+	Version = 1.1.0
+	ViewParams = null
+	Width = 768
+2021-10-29 08:43:31,580 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2021-10-29 08:43:31,757 INFO [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = http://localhost:8789/geoserver/
+	Bbox = SRSEnvelope[263259.8372499257 : 732363.2131384244, 5932508.513433651 : 6298384.714159186]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = PROJCS["LKS94 / Lithuania TM", 
+  GEOGCS["LKS94", 
+    DATUM["Lithuania 1994 (ETRS89)", 
+      SPHEROID["GRS 1980", 6378137.0, 298.257222101, AUTHORITY["EPSG","7019"]], 
+      TOWGS84[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 
+      AUTHORITY["EPSG","6126"]], 
+    PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+    UNIT["degree", 0.017453292519943295], 
+    AXIS["Geodetic longitude", EAST], 
+    AXIS["Geodetic latitude", NORTH], 
+    AUTHORITY["EPSG","4669"]], 
+  PROJECTION["Transverse_Mercator", AUTHORITY["EPSG","9807"]], 
+  PARAMETER["central_meridian", 24.0], 
+  PARAMETER["latitude_of_origin", 0.0], 
+  PARAMETER["scale_factor", 0.9998], 
+  PARAMETER["false_easting", 500000.0], 
+  PARAMETER["false_northing", 0.0], 
+  UNIT["m", 1.0], 
+  AXIS["Easting", EAST], 
+  AXIS["Northing", NORTH], 
+  AUTHORITY["EPSG","3346"]]
+	Elevation = []
+	Env = {}
+	Exceptions = application/vnd.ogc.se_inimage
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 600
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@e22e5f59]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {EXCEPTIONS=application/vnd.ogc.se_inimage, FORMAT=image/png, REQUEST=GetMap, SRS=EPSG:3346, BBOX=263259.8372499257,5932508.513433651,732363.2131384244,6298384.714159186, VERSION=1.1.1, STYLES=, WIDTH=768, SERVICE=WMS, HEIGHT=600, TRANSPARENT=true, LAYERS=uetk:Upes_kanalai}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:3346
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=line]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 768
+2021-10-29 08:43:33,449 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2021-10-29 08:43:33,470 INFO [geoserver.wms] - 
+Request: getFeatureInfo
+	BaseUrl = http://localhost:8789/geoserver/
+	Exceptions = application/vnd.ogc.se_inimage
+	ExcludeNodataResults = false
+	FeatureCount = 50
+	Get = false
+	GetMapRequest = 
+GetMap Request
+ version: 1.1.1
+ output format: image/png
+ width height: 101,101
+ bbox: SRSEnvelope[528657.5154055932 : 590349.4958284297, 6119111.483920547 : 6180803.464343383]
+ layers: uetk:Upes_kanalai
+ styles: line
+	InfoFormat = text/html
+	PropertyNames = null
+	QueryLayers = [org.geoserver.wms.MapLayerInfo@e22e5f59]
+	RawKvp = {FORMAT=image/png, INFO_FORMAT=text/html, STYLES=, WIDTH=101, HEIGHT=101, LAYERS=uetk:Upes_kanalai, EXCEPTIONS=application/vnd.ogc.se_inimage, REQUEST=GetFeatureInfo, SRS=EPSG:3346, BBOX=528657.5154055932,6119111.483920547,590349.4958284297,6180803.464343383, VERSION=1.1.1, X=50, Y=50, SERVICE=WMS, QUERY_LAYERS=uetk:Upes_kanalai, TRANSPARENT=true, FEATURE_COUNT=50}
+	Request = GetFeatureInfo
+	RequestCharset = null
+	Version = 1.1.1
+	XPixel = 50
+	YPixel = 50
+2021-10-29 08:43:35,249 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2021-10-29 08:43:35,281 INFO [geoserver.wms] - 
+Request: getFeatureInfo
+	BaseUrl = http://localhost:8789/geoserver/
+	Exceptions = application/vnd.ogc.se_inimage
+	ExcludeNodataResults = false
+	FeatureCount = 50
+	Get = false
+	GetMapRequest = 
+GetMap Request
+ version: 1.1.1
+ output format: image/png
+ width height: 101,101
+ bbox: SRSEnvelope[523771.02190675464 : 585463.0023295911, 6099565.509925193 : 6161257.490348029]
+ layers: uetk:Upes_kanalai
+ styles: line
+	InfoFormat = text/html
+	PropertyNames = null
+	QueryLayers = [org.geoserver.wms.MapLayerInfo@e22e5f59]
+	RawKvp = {FORMAT=image/png, INFO_FORMAT=text/html, STYLES=, WIDTH=101, HEIGHT=101, LAYERS=uetk:Upes_kanalai, EXCEPTIONS=application/vnd.ogc.se_inimage, REQUEST=GetFeatureInfo, SRS=EPSG:3346, BBOX=523771.02190675464,6099565.509925193,585463.0023295911,6161257.490348029, VERSION=1.1.1, X=50, Y=50, SERVICE=WMS, QUERY_LAYERS=uetk:Upes_kanalai, TRANSPARENT=true, FEATURE_COUNT=50}
+	Request = GetFeatureInfo
+	RequestCharset = null
+	Version = 1.1.1
+	XPixel = 50
+	YPixel = 50
+2021-10-29 08:43:36,406 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2021-10-29 08:43:36,429 INFO [geoserver.wms] - 
+Request: getFeatureInfo
+	BaseUrl = http://localhost:8789/geoserver/
+	Exceptions = application/vnd.ogc.se_inimage
+	ExcludeNodataResults = false
+	FeatureCount = 50
+	Get = false
+	GetMapRequest = 
+GetMap Request
+ version: 1.1.1
+ output format: image/png
+ width height: 101,101
+ bbox: SRSEnvelope[514608.84659643256 : 576300.827019269, 6079408.724242484 : 6141100.70466532]
+ layers: uetk:Upes_kanalai
+ styles: line
+	InfoFormat = text/html
+	PropertyNames = null
+	QueryLayers = [org.geoserver.wms.MapLayerInfo@e22e5f59]
+	RawKvp = {FORMAT=image/png, INFO_FORMAT=text/html, STYLES=, WIDTH=101, HEIGHT=101, LAYERS=uetk:Upes_kanalai, EXCEPTIONS=application/vnd.ogc.se_inimage, REQUEST=GetFeatureInfo, SRS=EPSG:3346, BBOX=514608.84659643256,6079408.724242484,576300.827019269,6141100.70466532, VERSION=1.1.1, X=50, Y=50, SERVICE=WMS, QUERY_LAYERS=uetk:Upes_kanalai, TRANSPARENT=true, FEATURE_COUNT=50}
+	Request = GetFeatureInfo
+	RequestCharset = null
+	Version = 1.1.1
+	XPixel = 50
+	YPixel = 50
+2021-10-29 08:43:59,941 INFO [platform.resource] - Notifying ENTRY_MODIFY change on /usr/app/bin/../data_dir/security/usergroup/default/users.xml. Created: 0, removed: 0, modified: 0
+2021-10-29 08:43:59,942 INFO [geoserver.security] - Start reloading user/groups for service named default
+2021-10-29 08:43:59,948 INFO [geoserver.security] - Reloading user/groups successful for service named default
+2021-10-29 08:43:59,948 INFO [geoserver.security] - Adjusted last modified for file: security/usergroup/default/users.xml

@@ -4,7 +4,9 @@ services:
     build: . 
     restart: always
     ports:
-      - 8787:8080
+      - 8789:8080
+    volumes:
+      - ./geoserver/data_dir:/usr/app/data_dir
     environment:
       POSTGRES_PASSWORD: "a010o8h84pk67510o8h"
       POSTGRES_USER: "admin"

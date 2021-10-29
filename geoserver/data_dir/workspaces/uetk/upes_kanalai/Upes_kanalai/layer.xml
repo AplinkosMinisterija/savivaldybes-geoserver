@@ -1,0 +1,16 @@
+<layer>
+  <name>Upes_kanalai</name>
+  <id>LayerInfoImpl-3c4b0364:17ccb345f9b:-7ff8</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--570ae188:124761b8d78:-7fe3</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-3c4b0364:17ccb345f9b:-7ff9</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2021-10-29 08:42:42.652 UTC</dateCreated>
+</layer>

@@ -1,0 +1,16 @@
+<layer>
+  <name>Ezerai_tvenkiniai_dirbiniai</name>
+  <id>LayerInfoImpl-3c4b0364:17ccb345f9b:-7ffb</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--570ae188:124761b8d78:-7fe0</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-3c4b0364:17ccb345f9b:-7ffc</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2021-10-29 08:41:41.999 UTC</dateCreated>
+</layer>
