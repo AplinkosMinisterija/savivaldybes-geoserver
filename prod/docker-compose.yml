@@ -1,0 +1,12 @@
+version: "3.3"
+services:
+  geo-data:
+      image: biip/geo-data:0.02
+      restart: always
+      ports:
+        - 8787:8080
+  evartai:
+    image: biip/evartai:4.00 
+    restart: always
+    ports: 
+      - 8383:8080
